@@ -1,0 +1,19 @@
+/*.text_color.some{
+    color: darkblue;
+}
+#bold-text{
+    color: green;
+}*/
+
+/*div p{
+    color: crimson;
+}*/
+
+/*div > p{
+    color: crimson;
+}*/
+
+div p,
+#bold-text{
+    color: crimson;
+}

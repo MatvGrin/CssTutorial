@@ -1,0 +1,35 @@
+.link{
+    color: aqua;
+    text-decoration: none;/*underline, overline, line-through*/
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: crimson;
+    cursor: pointer;
+}
+
+.link:active{
+    text-decoration-color: darkblue;
+    color: black;
+}
+
+.link:visited{
+    color: coral;
+}
+
+input{
+    width: 100px;
+}
+
+input:focus{
+    width: 250px;
+}
+
+input:disabled{
+    width: 250px;
+}
+
+div:not(:empty){
+    color: red;
+}
