@@ -33,3 +33,36 @@ input:disabled{
 div:not(:empty){
     color: red;
 }
+
+p.main-text:not(:empty)::after{/*before and another*/
+    content: '123';
+    color: crimson;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+p.main-text:empty::before{
+    /*content: attr(title);*/
+    content: attr(class);
+    color: crimson;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+p.main-text:not(:empty)::first-letter{
+    color: aqua;
+    font-size: 25px;
+}
+
+/*p.main-text:not(:empty)::first-line{*/
+/*    color: aqua;*/
+/*    font-size: 25px;*/
+/*}*/
+
+p:first-of-type{
+    font-size: 55px;
+}
+
+p:last-of-type{
+    font-size: 55px;
+}

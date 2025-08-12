@@ -1,0 +1,26 @@
+body{
+    background: black;
+    color: white;
+}
+
+p.main-text{
+    color: #efefef;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold ;
+    text-transform: capitalize;
+    line-height: 50px;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.main-text>b{
+    font-style: normal;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-color: coral;
+    color : dodgerblue;
+    cursor: pointer;
+}
